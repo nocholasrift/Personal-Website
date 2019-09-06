@@ -15,7 +15,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script src="js/random_bitmoji.js"></script>
 
 <style>
   .bg{
@@ -23,10 +23,17 @@
     background-repeat:no-repeat;
     background-size: 100% 100vh;
   }
+  .about-blurb{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%
+  }
 </style>
-
 </head>
-<body class="bg">
+
+<body class="bg"">
   <nav class="transparent">
   <div class="nav-wrapper">
     <span class="left " style="margin-left: 15px">Nicholas</span>
@@ -44,11 +51,14 @@
     </ul>
   </div>
   </nav>
+  
   <div class="about-blurb">
-    <img src="imgs/who_is_nick.png">
+    <img src="imgs/who_is_nick_trans.png">
+    <img id="bitmoji">
+    <!-- <img src="imgs/bitmojis/bitmoji3.png"> -->
   </div>
-  <div class="about-blurb" align="middle">
+ <!--  <div class="about-blurb">
     <img src="imgs/bitmojis/bitmoji1.png">
-  </div>
+  </div> -->
 </body>
 </html>
