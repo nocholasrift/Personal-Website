@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Home Page</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/clean-blog.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
 </head>
 
@@ -53,14 +56,15 @@
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <header id="home-header" class="masthead" style="background-image: url('img/home-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Clean Blog</h1>
-            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+            <h1>Nick Mohammad</h1>
+            <span class="subheading">UVA Computer Engineering</span>
+            <span class="subsubheading">Class of 2020</span>
           </div>
         </div>
       </div>
@@ -68,7 +72,61 @@
   </header>
 
   <!-- Main Content -->
-  <div class="container">
+  <section id="portfolio" class="content-section">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">My Projects</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Raytracer</h2>
+                <p class="mb-0">A python raytracer that generates png files from text files</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/camera.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>3D Rasterizer</h2>
+                <p class="mb-0">A python rasterizer that generates png files from text files</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/camera2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Dota Analyzer</h2>
+                <p class="mb-0">Dota 2 player analyzer written in python and using beautiful soup</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/Dota2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Rubiks Cube Solver</h2>
+                <p class="mb-0">Work-in-progress Rubiks Cube solver in C++ using BFS</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/rubiks.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-preview">
@@ -124,14 +182,7 @@
             on July 8, 2019</p>
         </div>
         <hr>
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
+-->
   <hr>
 
   <!-- Footer -->
